@@ -9,8 +9,8 @@ using static IdentityServer4.IdentityServerConstants;
 
 namespace MultiShop.IdentityServer.Controller
 {
-     [Authorize(LocalApi.PolicyName)]
-    //[AllowAnonymous]
+     //[Authorize(LocalApi.PolicyName)]
+    [AllowAnonymous]
     ////şimdilik bunu yaz gel sonra sakladık
     [Route("api/[controller]")]
     [ApiController]
