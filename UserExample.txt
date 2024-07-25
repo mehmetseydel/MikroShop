@@ -1,0 +1,7 @@
+Kullanýcý Adý ---- Þifre
+-------------------------
+ali01 ---- 1111aA* ---  ali@gmail.com
+ayse01 ---- 2222aA*  ayse@gmail.com
+mehmet03 ---- 3333aA*  mehemet01@gmail.com
+ayhan04  --- 4444aA*  ayhanhoca@gmail.com
+------------------------
