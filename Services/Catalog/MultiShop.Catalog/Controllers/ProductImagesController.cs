@@ -7,7 +7,10 @@ using MultiShop.Catalog.Services.ProductImageServices;
 namespace MultiShop.Catalog.Controllers
 {
     //[Authorize]//burasu önemli ijwt token için 
-    [AllowAnonymous]
+    [Authorize]
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class ProductImagesController : ControllerBase

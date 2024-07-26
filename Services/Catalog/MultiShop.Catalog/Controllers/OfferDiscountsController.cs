@@ -6,7 +6,10 @@ using MultiShop.Catalog.Services.OfferDiscountServices;
 namespace MultiShop.Catalog.Controllers
 {
     //[Authorize]//burasu önemli ijwt token için 
-    [AllowAnonymous]
+    [Authorize]
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class OfferDiscountsController : ControllerBase

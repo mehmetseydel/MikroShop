@@ -16,7 +16,7 @@ namespace MultiShop.WebUI.ViewComponents.UILayoutViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7070/api/Categories");
+            var responseMessage = await client.GetAsync("http://localhost:7070/api/Categories");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsondata = await responseMessage.Content.ReadAsStringAsync();

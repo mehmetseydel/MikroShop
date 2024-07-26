@@ -7,7 +7,10 @@ using MultiShop.Catalog.Services.ProductDetailDetailServices;
 namespace MultiShop.Catalog.Controllers
 {
     //[Authorize]//burasu önemli ijwt token için 
-    [AllowAnonymous]
+    [Authorize]
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class ProductDetailsController : ControllerBase

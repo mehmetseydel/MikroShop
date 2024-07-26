@@ -7,7 +7,9 @@ using MultiShop.Catalog.Services.ProductServices;
 namespace MultiShop.Catalog.Controllers
 {
     //[Authorize]//burasu önemli ijwt token için 
-    [AllowAnonymous]
+    [Authorize]
+
+
 
     [Route("api/[controller]")]
     [ApiController]
