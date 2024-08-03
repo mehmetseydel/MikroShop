@@ -4,15 +4,12 @@
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
     int count = 0;
-
 }
 
 <section class="content container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="chart-box">
-                <h4>Ürünler Listesi</h4>
-                <p>Ürün ile ilgili işlemler buradan yapabilirsiniz.</p>
                 <div class="bs-example" data-example-id="bordered-table">
                     <table class="table table-bordered">
                         <thead>
@@ -38,13 +35,9 @@
                             }
                         </tbody>
                     </table>
-                    <td><a href="/Admin/Product/CreateProduct/" class="btn btn-primary">Yeni Ürün Girişi</a></td>
-
+                    <a href="/Admin/Product/CreateProduct/" class="btn btn-primary">Yeni Ürün Girişi</a>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
-
-

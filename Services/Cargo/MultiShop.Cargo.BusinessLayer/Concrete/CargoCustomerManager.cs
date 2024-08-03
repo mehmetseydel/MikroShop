@@ -32,5 +32,11 @@ namespace MultiShop.Cargo.BusinessLayer.Concrete
         {
             _cargoCustomerDal.Update(entity);
         }
+
+        public CargoCustomer TGetCargoCustomerById(string id)
+        {
+            return _cargoCustomerDal.GetCargoCustomerById(id);
+        }
+
     }
 }

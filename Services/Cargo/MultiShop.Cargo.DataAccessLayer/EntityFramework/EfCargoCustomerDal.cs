@@ -15,7 +15,9 @@ namespace MultiShop.Cargo.DataAccessLayer.EntityFramework
 
         public CargoCustomer GetCargoCustomerById(string id)
         {
-            throw new NotImplementedException();
+            var values = _cargoContext.CargoCustomers.Where(x => x.UserCustomerId == id).FirstOrDefault();
+            return values;
         }
+
     }
 }

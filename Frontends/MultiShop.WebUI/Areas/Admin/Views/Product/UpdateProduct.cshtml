@@ -21,7 +21,7 @@
                         <input type="text" class="form-control" asp-for="ProductName" />
                         <br />
                         <label>Ürün Fiyatı</label>
-                        <input type="text" class="form-control" asp-for="ProductPrice" />
+                        <input type="text" class="form-control" asp-for="ProductPrice" asp-format="{0:C}" />
                         <br />
                         <label>Ürün Görseli</label>
                         <input type="text" class="form-control" asp-for="ProductImageUrl" />

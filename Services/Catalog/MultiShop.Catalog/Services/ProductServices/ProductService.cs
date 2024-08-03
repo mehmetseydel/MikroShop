@@ -48,6 +48,7 @@ namespace MultiShop.Catalog.Services.ProductServices
 
         }
 
+
         public async Task<List<ResultProductsWithCategoryDto>> GetProductsWithCategoryByCatetegoryIdAsync(string CategoryId)
         {
             var values = await _productCollection.Find(x => x.CategoryId == CategoryId).ToListAsync();

@@ -7,3 +7,25 @@ ayhan04  --- 4444aA*  ayhanhoca@gmail.com
 
 aydýn 111111aA*
 ------------------------
+
+portainer
+admin
+123456789aA*
+
+******
+pgadmin port 5432
+12345
+
+******
+portlar
+Ocelot   -->  5000
+Identity -->  5001
+Catalog  -->  7070
+Discount -->  7071
+Order    -->  7072
+Cargo    -->  7073
+Basket   -->  7074
+Comment  -->  7075
+Payment  -->  7076
+Images   -->  7077
+Message  -->  7078
